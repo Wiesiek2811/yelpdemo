@@ -13,6 +13,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'carrierwave'
+gem "fog-aws"
 
 group :development, :test do
   gem 'byebug', platform: :mri
